@@ -1,11 +1,4 @@
--- =====================================================================
--- File   : 00_schema/02_insert_sample_data.sql
--- Purpose: Sample data. Grades below follow the grading scale:
---          80-100 A | 75-79 B+ | 70-74 B | 65-69 C+ | 60-64 C | 50-59 D | <50 F
--- Notes  : * Two students share the last name 'Uwimana' (TOO_MANY_ROWS demo).
---          * Student 1009 is SUSPENDED and 1011 has no enrollments.
---          * Course 105 has capacity 2 and is already full for '2026-A'.
--- =====================================================================
+
 
 -- Departments
 INSERT INTO departments (dept_id, dept_name) VALUES (10, 'Computer Science');
