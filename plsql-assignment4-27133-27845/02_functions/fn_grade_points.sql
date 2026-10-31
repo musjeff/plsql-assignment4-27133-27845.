@@ -1,8 +1,4 @@
--- =====================================================================
--- Function: fn_grade_points
--- Purpose : Convert a letter grade into grade points (4.0 scale).
--- Errors  : ORA-20011 for an unknown grade (no misleading default value).
--- =====================================================================
+
 CREATE OR REPLACE FUNCTION fn_grade_points (
   p_grade IN VARCHAR2
 ) RETURN NUMBER
