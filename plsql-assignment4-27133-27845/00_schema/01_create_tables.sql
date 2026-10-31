@@ -1,9 +1,4 @@
--- =====================================================================
--- Assignment IV - University Registration & Grading System
--- File   : 00_schema/01_create_tables.sql
--- Purpose: Tables, relationships, constraints, sequences, SQL types.
--- Note   : Re-runnable. Existing objects of this project are dropped first.
--- =====================================================================
+
 SET SERVEROUTPUT ON SIZE UNLIMITED
 
 -- ---------- Clean-up (so the script can be run repeatedly) ----------
